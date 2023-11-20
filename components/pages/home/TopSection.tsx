@@ -7,12 +7,12 @@ import { useDarkMode } from '@/context/darkMode';
 
 const cx = classNames.bind(styles);
 
-export type imageType = '/img/wp-2.jpeg' | '/img/wp-3.png';
+export type imageType = '/img/wp-swirl.jpg' | '/img/wp-3.png';
 const getImage = (isDark: boolean): imageType =>
-  isDark ? '/img/wp-3.png' : '/img/wp-2.jpeg';
+  isDark ? '/img/wp-3.png' : '/img/wp-swirl.jpg';
 
 const Header = forwardRef<HTMLElement>((props, ref) => {
-  const [url, setUrl] = useState<imageType>('/img/wp-2.jpeg');
+  const [url, setUrl] = useState<imageType>('/img/wp-swirl.jpg');
   const { isDarkTheme } = useDarkMode();
 
   useEffect(() => {

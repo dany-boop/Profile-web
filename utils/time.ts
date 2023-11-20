@@ -13,6 +13,6 @@ export const getTime = () => {
     return Math.floor(diff.years);
   } catch (error) {
     console.error('Error parsing DATE_TIME:', error);
-    return 0; // or handle the error in a way that fits your application
+    return 19; // or handle the error in a way that fits your application
   }
 };

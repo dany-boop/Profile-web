@@ -1,15 +1,21 @@
 .transparent {
   box-shadow: none;
   background: none;
+  /* backdrop-filter: blur(5px); */
+  /* -webkit-filter: blur(5px); */
 }
 
 .transparentDarker {
+  /* backdrop-filter: blur(5px); */
+  /* -webkit-filter: blur(5px); */
   color: #0e0e0f !important;
 }
 
 .regular {
   font-weight: normal !important;
   color: var(--color-text) !important;
+  /* backdrop-filter: blur(5px); */
+  /* -webkit-filter: blur(5px); */
 }
 
 .imageProfile {
@@ -19,6 +25,7 @@
 
 .menu {
   font-family: "Lato";
+  
 }
 
 .spanNama {

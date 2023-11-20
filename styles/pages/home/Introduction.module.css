@@ -18,6 +18,7 @@
   background-color: var(--color-background-primary);
     /* z-index: 2; */
 }
+
 .heading1{
   text-align: center;
   min-height: 5rem;
@@ -52,7 +53,7 @@
 }
 
 .img{
-  margin-left: 10rem;
+  margin-left: 18rem;
   border-radius: 15px;
   width: 18.5rem;
   height: auto;;

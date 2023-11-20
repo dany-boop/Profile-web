@@ -23,6 +23,10 @@
   font-weight: normal;
   margin-bottom: 15px !important;
 }
+.repoIcon {
+  flex-wrap: wrap;
+  margin-bottom: 15px !important;
+}
 
 .card {
   min-height: 250px;
